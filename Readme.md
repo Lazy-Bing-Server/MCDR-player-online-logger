@@ -10,13 +10,17 @@
 
 
 
+
 ##### 记录器（Logger）：
 
 插件加载后静默运行。玩家首次上线时创建日志文件，下线后写入日志。
 
 每位玩家都会拥有一个独立的日志（是的你没听错 :)
 
-写入格式如下：![log_file_example](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/log_file_example.png)
+写入格式如下：
+
+![log_file_example](pic/log_file_example.png)
+
 
 
 
@@ -24,11 +28,18 @@
 
 解析器用于在游戏内解析日志文件，可查看记录器生产的可操作玩家、统计信息、与最近登录信息。
 
-查看可操作玩家：![command_list](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/command_list.png)
+查看可操作玩家：
 
-查看统计信息：![command_player_noargs]([.\pic\](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/)command_player_noargs.png)
+![command_list](pic/command_list.png)
 
-查看最近登录信息：![command_player_args_3]([.\pic\](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/)command_player_args_3.png)
+查看统计信息：
+
+![command_player_noargs](pic/command_player_noargs.png)
+
+查看最近登录信息：
+
+![command_player_args_3](pic/command_player_args_3.png)
+
 
 
 
@@ -44,11 +55,13 @@
 
 
 
+
 当 `<command>`字段不为 `list、help` 时，该字段作为输入的玩家名使用，规则如下：
 
 1. 当字段 `<args>` 不存在时，输出玩家的全部统计数据；
 
    `!!log player` ：输出玩家 player 的统计数据
+
 
    
 
@@ -56,11 +69,13 @@
 
    `!!log player 10` ：以列表方法显示玩家 player 最近 10 次登录日志
 
+
    
 
 3. 当字段 `<args>` 值 >100 时，将值按 `YYYYMMDD` 格式解析为日期，输出玩家以该日期为起始的统计数据；
 
    `!!log player 20250401` ：输出 player 从 `2025年4月1日` 起至今的统计数据
+
 
    
 
