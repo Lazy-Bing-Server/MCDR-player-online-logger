@@ -16,7 +16,7 @@
 
 每位玩家都会拥有一个独立的日志（是的你没听错 :)
 
-写入格式如下：![log_file_example](.\pic\log_file_example.png)
+写入格式如下：![log_file_example](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/log_file_example.png)
 
 
 
@@ -24,11 +24,11 @@
 
 解析器用于在游戏内解析日志文件，可查看记录器生产的可操作玩家、统计信息、与最近登录信息。
 
-查看可操作玩家：![command_list](.\pic\command_list.png)
+查看可操作玩家：![command_list](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/command_list.png)
 
-查看统计信息：![command_player_noargs](.\pic\command_player_noargs.png)
+查看统计信息：![command_player_noargs]([.\pic\](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/)command_player_noargs.png)
 
-查看最近登录信息：![command_player_args_3](.\pic\command_player_args_3.png)
+查看最近登录信息：![command_player_args_3]([.\pic\](https://github.com/Lazy-Bing-Server/MCDR-player-online-logger/tree/master/pic/)command_player_args_3.png)
 
 
 
